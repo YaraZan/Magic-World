@@ -1,0 +1,225 @@
+
+
+
+:root {
+
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Inter'),
+        url('../font/Inter-Bold.woff'),
+        url('../font/Inter-Bold.woff2');
+}
+
+
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.page-body {
+    margin: 0 auto;
+}
+
+.page-body__container {
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+}
+
+.header__container {
+    display: flex;
+    padding: 21px 0 21px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32;
+}
+
+/* MAIN */
+
+.main {
+    margin: 0 auto;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* \\CARDS */
+
+.cards {
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.cards__container {
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.cards__card {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all .2s ease;
+    position: relative;
+}
+
+.cards__one::after {
+    content: 'HI';
+    display: flex;
+    color: #FFFFFF;
+
+    font-size: 82px;
+    font-weight: 700;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #C4C4C4;
+    transition: transform .3s ease-in-out;
+}
+
+.cards__one::after {
+    top: 0;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+.cards__one:hover::after {
+    transform: none;
+}
+
+
+
+.cards__two::after {
+    content: 'Привет';
+    display: flex;
+    color: #000000;
+
+    font-size: 82px;
+    font-weight: 700;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #A7BBCD;
+    transition: transform .3s ease-in-out;
+}
+
+.cards__two::after {
+    top: 0;
+    bottom: 0;
+    transform: translateY(-100%);
+}
+
+.cards__two:hover::after {
+    transform: none;
+}
+
+
+
+
+.cards__three::after {
+    content: 'Aloha';
+    display: flex;
+    color: #000000;
+
+    font-size: 82px;
+    font-weight: 700;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #A7BBCD;
+    transition: transform .3s ease-in-out;
+}
+
+.cards__three::after {
+    top: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+}
+
+.cards__three:hover::after {
+    transform: none;
+}
+
+
+
+
+
+.cards__four::after {
+    content: 'Bonjour';
+    display: flex;
+    color: #FFFFFF;
+
+    font-size: 82px;
+    font-weight: 700;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #C4C4C4;
+    transition: transform .3s ease-in-out;
+}
+
+.cards__four::after {
+    top: 0;
+    bottom: 0;
+    transform: translateX(100%);
+}
+
+.cards__four:hover::after {
+    transform: none;
+}
+
+
+
