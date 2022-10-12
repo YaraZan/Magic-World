@@ -11,8 +11,8 @@
     font-style: normal;
     font-weight: 700;
     src: local('Inter'),
-        url('../font/Inter-Bold.woff'),
-        url('../font/Inter-Bold.woff2');
+        url('font/Inter-Bold.woff'),
+        url('font/Inter-Bold.woff2');
 }
 
 
